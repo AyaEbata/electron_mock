@@ -1,0 +1,26 @@
+.navbar {
+  border-radius: 0px;
+}
+
+#top-box {
+  margin-bottom: 25px;
+}
+
+#editor {
+  border: 1px solid silver;
+  height: 230px;
+  padding: 0px 5px;
+  font-size: 80%;
+}
+#preview {
+  border: 1px solid silver;
+  height: 230px;
+}
+
+#hatena {
+  cursor: pointer;
+}
+.question {
+	font-size: 200%;
+	margin-bottom: 10px;
+}

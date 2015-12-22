@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="js/enchant.js"></script>
+    <script>
+enchant();
+
+window.onload = function() {
+    var core = new Core(320, 320);
+    core.preload('./img/chara1.png');
+    core.onload = function() {
+        var bear = new Sprite(32, 32);
+        bear.image = core.assets['./img/chara1.png'];
+        core.rootScene.addChild(bear);
+    };
+    core.start();
+};
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
